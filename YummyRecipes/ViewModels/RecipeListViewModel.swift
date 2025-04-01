@@ -18,13 +18,13 @@ class RecipesListViewModel: ObservableObject {
             try await dataService.downloadRecipes(from: url)
             self.recipes = dataService.allRecipes
             if self.recipes.isEmpty {
-                errorMessage = "Sorry! No recipes found."
+                errorMessage = "No recipes found."
                 return
             }
             sortByNames()
         } catch let error {
             debugPrint("Error fetching recipes.", error)
-            errorMessage = "Error while fetching recipes!"
+            errorMessage = "Something went wromg! Please try again later!"
             self.recipes = []
         }
     }
