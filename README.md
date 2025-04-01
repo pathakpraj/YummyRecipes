@@ -28,6 +28,8 @@ https://github.com/user-attachments/assets/fa0ba805-57c8-438c-aefb-ef2ae6887999
 	App’s UI is built using SwiftUI.
 
 If a recipe is malformed, app disregards the entire list of recipes and handles the error gracefully. If the recipes list is empty, the app displays an empty state to inform users that no recipes are available.
+<img width="406" alt="Edge cases" src="https://github.com/user-attachments/assets/611d57bd-aad1-42a6-9dcc-990027c64897" />
+
 
 
 ### Focus Areas: 
